@@ -220,6 +220,10 @@ nmap 192.168.1.10 --script vuln
 ```bash
 nmap --script-updatedb
 ```
+- Get help about a script:
+```bash
+nmap --script-help snmp-sysdescr
+```
 
 ## Output Scanning
 
