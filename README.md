@@ -1,8 +1,8 @@
-#Nmap
+# Nmap
 
 ## Basic Scanning
 
 - Example 1:
-'''sh
+‘‘‘sh
 nmap 192.168.1.10
-'''
+‘‘‘
