@@ -225,6 +225,15 @@ nmap --script-updatedb
 nmap --script-help snmp-sysdescr
 ```
 
+- Auto Vulnerable detection:
+```bash
+nmap --script vuln 192.168.1.10
+```
+- Auto Vulnerable detection:
+```bash
+nmap --script vulners 192.168.1.10
+```
+
 ## Output Scanning
 
 - normal output: ⭐️⭐️
@@ -278,3 +287,5 @@ nmap 192.168.1.10 --iflist
 ```bash
 nmap 192.168.1.10 --resume output.txt
 ```
+
+
