@@ -234,6 +234,11 @@ nmap --script vuln 192.168.1.10
 nmap --script vulners 192.168.1.10
 ```
 
+- Vulscan scripts:
+```bash
+nmap --script vulscan/vulscan.nse
+```
+
 ## Output Scanning
 
 - normal output: ⭐️⭐️
